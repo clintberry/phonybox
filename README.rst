@@ -11,9 +11,9 @@ It is a great starting point to get your next phone app started quickly. REALLY 
 Installation
 ------------
 
-1. Install VirtualBox - a cross platform virtual machine program by Oracle
+1. Install `Virtual Box <https://www.virtualbox.org/>`_ - a cross platform virtual machine program by Oracle
 
-2. Install Vagrant - a virtual machine provisioner making it easier than ever to automate virtual machine setups
+2. Install `Vagrant <http://www.vagrantup.com>`_ - a virtual machine provisioner making it easier than ever to automate virtual machine setups
 
 3. Check out the code...
 
