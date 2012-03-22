@@ -5,7 +5,7 @@ Plivo-in-a-box (PIAB) is a full phone system already installed with FreeSWITCH a
 
 
 PIAB is based on a custom Vagrant box that I have built, which is essentially just a virtual machine pre-installed and configured with FreeSWITCH, Plivo, PHP/Apache, and MySQL. 
-It is a great starting point to get your next phone app started quickly. REALLY QUICKLY. I mean, no installation of anything, just fire it up and it works...
+It is a great starting point to get your next phone app started quickly. REALLY QUICKLY. I mean no installation of anything, just fire it up and it works...
 
 
 Installation
