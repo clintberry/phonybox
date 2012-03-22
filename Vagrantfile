@@ -3,7 +3,7 @@
 
 Vagrant::Config.run do |config|
   config.vm.box = "plivo"
-  config.vm.box_url = "http://domain.com/path/to/above.box"
+  config.vm.box_url = "http://dl.dropbox.com/u/10552177/plivo.box"
 
   config.vm.customize [
     "modifyvm", :id,
