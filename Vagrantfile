@@ -11,6 +11,8 @@ Vagrant::Config.run do |config|
     "--memory", "512"
   ]
 
+  config.vm.forward_port 22, 2221
+
   config.vm.network :hostonly, "11.1.1.2"
 
   config.vm.provision :chef_solo do |chef|

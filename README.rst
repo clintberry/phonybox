@@ -1,10 +1,10 @@
-Plivo-in-a-Box
+Phone-System-in-a-Box
 ==============
 
-Plivo-in-a-box (PIAB) is a full phone system already installed with FreeSWITCH and Plivo. Fire it up, and you have a working phone system that you can customize with PHP.
+Phone-System-in-a-Box (PSIAB) is a full phone system already installed with FreeSWITCH and Plivo. Fire it up, and you have a working phone system that you can customize with PHP.
 
 
-PIAB is based on a custom Vagrant box that I have built, which is essentially just a virtual machine pre-installed and configured with FreeSWITCH, Plivo, PHP/Apache, and MySQL. 
+PSIAB is based on a custom Vagrant box that I have built, which is essentially just a virtual machine pre-installed and configured with FreeSWITCH, Plivo, PHP/Apache, and MySQL. 
 It is a great starting point to get your next phone app started quickly. REALLY QUICKLY. I mean no installation of anything, just fire it up and it works...
 
 
@@ -26,6 +26,15 @@ Usage
 -----
 
 coming soon....
+
+FAQ
+---
+
+Q. So I don't need Twilio to make cool phone apps?
+
+A. Nope! Do it cheaper with your own system....
+
+
 
 
 
