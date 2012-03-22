@@ -30,9 +30,9 @@ coming soon....
 FAQ
 ---
 
-Q. So I don't need Twilio to make cool phone apps?
+Question: So I don't need Twilio to make cool phone apps?
 
-A. Nope! Do it cheaper with your own system....
+Answer: Nope! Do it cheaper with your own system....
 
 
 
