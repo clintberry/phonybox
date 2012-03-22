@@ -1,4 +1,8 @@
 execute "Invites folder" do
-  command "mkdir /usr/local/mymc/vault/invites"
+  command "./usr/local/freeswitch/bin/freeswitch -nc"
+end
+
+execute "Invites folder" do
+  command "/etc/init.d/plivo start"
 end
 
