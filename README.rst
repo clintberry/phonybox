@@ -17,7 +17,7 @@ Installation
 
 3. Check out the code...
 
-4. In your terminal, go to the code directory and type: vagrant up
+4. In your terminal, go to the code directory and type: vagrant up (FYI - on first usage this downloads a rather large (1 gig) virtual machine file)
 
 Yeah, that is it....
 
