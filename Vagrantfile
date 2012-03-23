@@ -18,6 +18,12 @@ Vagrant::Config.run do |config|
   config.vm.provision :chef_solo do |chef|
     chef.cookbooks_path = "config/cookbooks"
     chef.add_recipe("plivo")
+    chef.json = {
+      :plivo_auth_id => 12345,
+      :plivo_auth_token => 12345,
+      :plivo_answer_url => "http://127.0.0.1:80/answer/",
+      :plivo_hangup_url => "http://127.0.0.1:80/hangup/"
+    }
   end
 
 end
