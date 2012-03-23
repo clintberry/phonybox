@@ -1,11 +1,10 @@
-Phone-System-in-a-Box
+Phony Box
 =====================
-(will someone please come up with a cool name for this... honestly...)
 
-Phone-System-in-a-Box (PSIAB) is a full phone system already installed with FreeSWITCH and Plivo. Fire it up, and you have a working phone system that you can customize with PHP.
+PhonyBox is a full phone system already installed with FreeSWITCH and Plivo. Fire it up, and you have a working phone system that you can customize with PHP.
 
 
-PSIAB is based on a custom Vagrant box that I have built, which is essentially just a virtual machine pre-installed and configured with FreeSWITCH, Plivo, PHP/Apache, and MySQL. 
+PhonyBox is based on a custom Vagrant box that I have built, which is essentially just a virtual machine pre-installed and configured with FreeSWITCH, Plivo, PHP/Apache, and MySQL. 
 It is a great starting point to get your next phone app started quickly. REALLY QUICKLY. I mean no installation of anything, just fire it up and it works...
 
 
