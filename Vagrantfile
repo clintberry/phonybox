@@ -16,7 +16,7 @@ Vagrant::Config.run do |config|
   config.vm.network :hostonly, "11.1.1.2"
 
   config.vm.provision :chef_solo do |chef|
-    chef.cookbooks_path = "config/cookbooks"
+    chef.cookbooks_path = "app/config/env/cookbooks"
     chef.add_recipe("plivo")
     chef.json = {
       :plivo_auth_id => 12345,
