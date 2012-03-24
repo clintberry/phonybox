@@ -1,7 +1,8 @@
 
+
 #Update dialplan xml with this template
 template "/usr/local/freeswitch/conf/dialplan/default.xml" do
-  source "dialplan-default.xml.erb"
+  source "default.xml.erb"
   mode 0755
   owner "root"
   group "root"
@@ -9,7 +10,15 @@ end
 
 #update plivo conf with this template
 template "/usr/local/plivo/etc/plivo/default.conf" do
-  source "plivo-default.conf.erb"
+  source "default.conf.erb"
+  mode 0755
+  owner "root"
+  group "root"
+end
+
+#update internal profile to use the correct IP address
+template "/usr/local/freeswitch/conf/sip_profiles/internal.xml" do
+  source "internal.xml.erb"
   mode 0755
   owner "root"
   group "root"

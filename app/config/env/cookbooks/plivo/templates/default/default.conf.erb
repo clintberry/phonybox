@@ -4,8 +4,8 @@ DEFAULT_HTTP_METHOD = POST
 
 # Incoming calls will always use those urls to post answer/hangup events
 # By default, hangup url is same as answer url
-DEFAULT_ANSWER_URL = http://127.0.0.1:80/answer/
-DEFAULT_HANGUP_URL = http://127.0.0.1:80/hangup/
+DEFAULT_ANSWER_URL = <%= node[:plivo_answer_url] %>
+DEFAULT_HANGUP_URL = <%= node[:plivo_hangup_url] %>
 
 # Set proxy if needed
 # PROXY_URL = http://proxy:3128
@@ -14,8 +14,8 @@ DEFAULT_HANGUP_URL = http://127.0.0.1:80/hangup/
 #EXTRA_FS_VARS = variable_user_context,Channel-Read-Codec-Bit-Rate
 
 # Auth ID and Auth Token for plivo authentication - Change to something unique
-AUTH_ID = 12345
-AUTH_TOKEN = 12345
+AUTH_ID = <%= node[:plivo_auth_id] %>
+AUTH_TOKEN = <%= node[:plivo_auth_token] %>
 
 # Cache API Url access for plivo rest and outbound servers
 CACHE_URL = http://127.0.0.1:8089

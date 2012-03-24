@@ -22,7 +22,8 @@ Vagrant::Config.run do |config|
       :plivo_auth_id => 12345,
       :plivo_auth_token => 12345,
       :plivo_answer_url => "http://127.0.0.1:80/answer/",
-      :plivo_hangup_url => "http://127.0.0.1:80/hangup/"
+      :plivo_hangup_url => "http://127.0.0.1:80/hangup/",
+      :freeswitch_ip => "11.1.1.2"
     }
   end
 
