@@ -1,15 +1,22 @@
 Phony Box
 =====================
+PhonyBox is an easy to use telephone system managment software written in Node.js and runs on top of `FreeSWITCH <https://www.freeswitch.org/>`_ and `Plivo <https://www.plivo.org/>`_.  If you are looking to setup a basic phone system for your home or office, look no further.
 
-PhonyBox is a full phone system already installed with FreeSWITCH and Plivo. Fire it up, and you have a working phone system that you can customize with PHP.
+PhonyBox includes a `Vagrant <http://www.vagrantup.com>`_ configuration file so you can fire up a virtual box complete with FreeSWITCH, Plivo, Node.js, and MongoDB.
+
+PhonyBox front-end code is written with Backbone.js and is very modular and customizable. 
+
+Features
+--------
+
+* Add people and extensions easily
+* Define call routing instructions
+* Record greetings for auto-attendants and define actions for digit combinations
+* Connect to the live phone system easily with our pre-built integration templates
 
 
-PhonyBox is based on a custom Vagrant box that I have built, which is essentially just a virtual machine pre-installed and configured with FreeSWITCH, Plivo, PHP/Apache, and MySQL. 
-It is a great starting point to get your next phone app started quickly. REALLY QUICKLY. I mean no installation of anything, just fire it up and it works...
-
-
-Installation
-------------
+Development Installation
+------------------------
 
 1. Install `Virtual Box <https://www.virtualbox.org/>`_ - a cross platform virtual machine program by Oracle
 
@@ -19,13 +26,19 @@ Installation
 
 4. In your terminal, go to the code directory and type: vagrant up (FYI - on first usage this downloads a rather large (1 gig) virtual machine file)
 
-Yeah, that is it....
+That is all! You now have a full phone system running in a virtual machine.
+
+
+Production Installation
+-----------------------
+
+Coming Soon...
 
 
 Usage
 -----
 
-coming soon....
+Coming Soon....
 
 FAQ
 ---
