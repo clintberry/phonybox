@@ -5,3 +5,4 @@
 app/libraries/*
 app/resources/tmp/*
 .*.sw[op]
+node_modules
